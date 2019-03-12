@@ -1,0 +1,35 @@
+{
+  "name": "html2wx-rich-text",
+  "version": "1.0.2",
+  "description": "解析基础html标签和行内样式为小程序富文本对象",
+  "main": "dist/html2wx-rich-text.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panzer-vor/html2wx-rich-text.git"
+  },
+  "files": [
+    "dist",
+    "src",
+    "package.json",
+    "README.md"
+  ],
+  "author": "panzer-vor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/panzer-vor/html2wx-rich-text/issues"
+  },
+  "homepage": "https://github.com/panzer-vor/html2wx-rich-text#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-latest": "^6.24.1",
+    "rollup": "^1.6.0",
+    "rollup-plugin-babel": "3",
+    "rollup-plugin-uglify": "^6.0.2"
+  }
+}
